@@ -1,0 +1,86 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.webdev{
+    width: 100%;
+    display: flex;
+}
+nav{
+    background-color: #9CAFAA;
+    padding: 10px;
+    position: relative;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+}
+nav li {
+    list-style-type: none;
+}
+nav a{
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FBF3D5;
+}
+p{
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+}
+h2{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+h3{
+    font-size: 40px;
+    position: relative;
+    
+}
+.container-biodata{
+    background-color: #D6DAC8;
+    flex: 1;
+    position: relative;
+    padding: 10px;
+    width: 900px;
+}
+.saya{
+    position: relative;
+    left: 40px;
+    width: 500px;
+    height: auto;
+}
+table{
+    background-color: #D6DAC8;
+    position: relative;
+    font-size: 25px;
+}
+.Pengalaman{
+    position: relative;
+    left: 1000px;
+    bottom: 700px;
+}
+footer{
+    background-color: #9CAFAA;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    bottom: 265px;
+}
